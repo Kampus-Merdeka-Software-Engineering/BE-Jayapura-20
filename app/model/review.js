@@ -7,7 +7,7 @@ const review = connection.define(
     id: {type: sequelize.DataTypes.INTEGER, primaryKey: true},
     nama: {type: sequelize.DataTypes.STRING},
     pesan: {type: sequelize.DataTypes.TEXT},
-    image: {type: sequelize.DataTypes.STRING},
+    image: {type: sequelize.DataTypes.TEXT},
 }, {
     freezeTableName: true,
     timestamps: false
