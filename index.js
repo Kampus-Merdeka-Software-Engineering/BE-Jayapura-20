@@ -14,7 +14,7 @@ app.use(express.static("public"));
 
 app.use(
     cors({
-        origin: ["http://localhost:5500"],
+        origin: ["fe-jayapura-20-production.up.railway.app"],
     })
 )
 
@@ -22,7 +22,7 @@ app.use(
 app.use("/", mainRouter);
 
 
-const port = 3000
+const port = 7650
 app.listen(port, function(){
     console.log("server start on", port)
     connection.authenticate()
