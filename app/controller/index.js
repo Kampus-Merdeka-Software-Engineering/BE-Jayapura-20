@@ -27,7 +27,9 @@ function daerah(req, res, next) {
 
 const addReview = async (req, res) => {
     try {
+        
         const body = req.body
+        console.log(body)
         const nama = body.nama
         const pesan = body.pesan
         await review.create({
