@@ -14,7 +14,7 @@ app.use(express.static("public"));
 
 app.use(
     cors({
-        origin: ["https://fe-jayapura-20-production.up.railway.app"],
+        origin: ["https://kampus-merdeka-software-engineering.github.io/FE-Jayapura-20/"],
     })
 )
 
